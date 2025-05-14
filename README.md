@@ -10,8 +10,21 @@ Write a C program to read 3 characters one by one and print the characters in a 
 4.	End the program.
 
 ## PROGRAM:
-
+```
+#include <stdio.h>
+int main()
+{
+    char a,b,c;
+    scanf("%c",&a);
+    scanf("%c",&b);
+    scanf("%c",&c);
+    printf("The reverse of %c%c%c is %c%c%c",a,b,c,c,b,a);
+    return 0;
+}
+```
 ## OUTPUT:
+![Screenshot 2025-05-14 193145](https://github.com/user-attachments/assets/d99506ef-00cf-4310-925d-a7833bb18b0a)
+
 
 
 
@@ -46,8 +59,14 @@ Write a C program to read A values and check whether A is positive number or not
 6.End the program.
 
 # PROGRAM:
+![Screenshot 2025-05-14 195144](https://github.com/user-attachments/assets/da6a8a7f-3bd2-465f-866b-0e5e3ba9bfbf)
+
+
 
 # OUTPUT:
+![Screenshot 2025-05-14 195151](https://github.com/user-attachments/assets/9e36dde1-4d1e-4443-b9e3-06263f29942e)
+
+
 
 
 
@@ -80,8 +99,12 @@ Write a program to find minimum between two fraction numbers using conditional o
 7.	Print the minimum value.
 
 ## PROGRAM:
+![Screenshot 2025-05-14 195442](https://github.com/user-attachments/assets/23dca959-f087-40d4-a699-4855475d18b4)
+
 
 ## OUTPUT:
+![Screenshot 2025-05-14 195448](https://github.com/user-attachments/assets/0eca0e2d-02d8-4a0a-939c-a521b1847100)
+
 
 
 
@@ -111,8 +134,11 @@ Write a C program to check whether the input value is equal to 1 using simple if
 6.	End the program.
 
 ## PROGRAM:
+![Screenshot 2025-05-14 195557](https://github.com/user-attachments/assets/b979e2a0-0911-4494-a882-3f471e0961ed)
+
 
 ## OUTPUT:
+![Screenshot 2025-05-14 195604](https://github.com/user-attachments/assets/88825782-3d60-40e0-9ce6-0b22f3475887)
 
 
 
@@ -147,8 +173,12 @@ c.	Else if percentage >= 36: Print “Division = Pass”
 9.	Else: Print “Division = Fail”
 10.	End
 ## PROGRAM:
+![Screenshot 2025-05-14 195654](https://github.com/user-attachments/assets/89380d08-6013-4654-8677-3bf740274961)
+
 
 ## OUTPUT:
+![Screenshot 2025-05-14 195703](https://github.com/user-attachments/assets/7e9f3ba7-7c17-420a-a54b-208c0fe7975c)
+
 
 ## RESULT:
 The program successfully takes three subject marks, calculates the total and percentage, and correctly determines the division based on predefined grading logic.
